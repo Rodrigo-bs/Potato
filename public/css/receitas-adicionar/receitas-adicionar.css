@@ -1,0 +1,142 @@
+.aviso {
+    font-size: 2rem;
+    color: var(--color-03--);
+    text-align: center;
+    background: var(--color-10--);
+}
+
+.receita_editar {
+    margin: 60px 0;
+    display: block;
+}
+
+.receita_editar__header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.receita_editar__img input {
+    display: none;
+}
+
+.receita_editar__img label {
+    width: 400px;
+    height: 267px;
+    display: block;
+    border: 1px solid var(--color-01--);
+    background: url('../../img/camera.svg') no-repeat center center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.receita_editar__infos {
+    margin-left: 30px;
+    width: 100%;
+}
+
+.receita_editar__infos input {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    width: 100%;
+    font-family: 'Kiwi Maru';
+    display: block;
+    font-size: 3.2rem;
+    color: var(--color-03--);
+    border: none;
+    background: transparent;
+}
+
+.receita_editar__infos *:focus {
+    border-bottom: 2px solid var(--color-01--);
+}
+
+.receita_editar__infos textarea {
+    height: 200px;
+    background: none;
+    border: none;
+    padding: 2px;
+    font-size: 1.5rem;
+    font-family: 'Nunito';
+    resize: none;
+    width: 100%;
+    outline: none;
+    border-radius: 0;
+}
+
+
+.receita_editar__preparo {
+    margin-top: 60px;
+    display: flex;
+}
+
+.lista_preparo {
+    margin-right: 60px;
+}
+
+.receita_editar__preparo h1,
+.receita_editar__preparo label {
+    margin-bottom: 10px;
+    font-size: 3.2rem;
+    color: var(--color-03--);
+}
+
+.receita_editar__preparo ul li {
+    list-style: outside;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-left: 40px;
+    font-size: 1.8rem;
+}
+
+.lista_preparo input {
+    border: 1px solid var(--color-01--);
+    outline: none;
+    padding: 5px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    margin: 30px 0 10px 0;
+}
+
+.lista_preparo button,
+.enviar {
+    background: var(--color-02--);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: inset -3px -3px 0px var(--color-08--);
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+}
+
+.modo_preparo {
+    width: 100%;
+}
+
+.modo_preparo label {
+    display: block;
+}
+
+.modo_preparo textarea {
+    font-size: 1.5rem;
+    color: var(--color-04--);
+    margin-left: 40px;
+    font-family: 'Nunito';
+    border: none;
+    background: none;
+    resize: none;
+    outline: none;
+    display: block;
+    width: 80%;
+    height: 100px;
+}
+
+.modo_preparo textarea:focus {
+    border-bottom: 2px solid var(--color-01--);
+}
+
+.enviar {
+    margin: 10px auto;
+}

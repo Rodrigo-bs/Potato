@@ -1,0 +1,5 @@
+@import './globais/global.css';
+@import './globais/animations.css';
+@import './globais/header-footer.css';
+@import './loja/loja.css';
+@import './loja/media-loja.css'

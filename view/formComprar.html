@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="As melhores batatas do mundo">
+    <meta name="keywords" content="Potatos, batatas, as melhores batatas do mundo">
+    <meta name="author" content="Rodrigo da Silva Brito">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500;600&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/import-formComprar.css">
+    <title>Potato</title>
+</head>
+<body>
+    <header> 
+        <div class="logo">
+            <a href="../index.html"> 
+                <img src="../public/img/logo.svg" alt="Potato - logo" title="Potato">
+            </a>
+        </div>
+
+        <div class="menu">
+            <nav class="container menu__desk">
+                <ul id="menu__nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                </ul>
+
+                <ul id="menu__login">
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+
+            <nav class="container menu__mobile">
+                <div class="menu__icon_mobile" data-menu="menu__icon"></div>
+
+                <ul id="menu__nav_mobile" class="anima__cima" data-menu="menu__nav_mobile">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="form-comprar">
+        <div class="container">
+            <form method="post">
+                <div class="form-comprar__box">
+                    <div class="form-comprar__input">
+                        <label for="CPF">CPF</label>
+                        <input type="number" name="CPF" id="CPF" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
+
+                    <div class="form-comprar__input">
+                        <label for="CEP">CEP</label>
+                        <input type="number" name="CEP" id="CEP" placeholder="xxxxx-xxx" required>
+                    </div>
+
+                    <div class="form-comprar__input">
+                        <label for="rua">Rua</label>
+                        <input type="text" name="rua" id="rua" placeholder="R. Do Conde" required>
+                    </div>
+
+                    <div class="form-comprar__input">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro" placeholder="B. Peixe Dourado" required>
+                    </div>
+
+                    <div class="form-comprar__input">
+                        <label for="num.casa">Número da Casa</label>
+                        <input type="number" name="num.casa" id="num.casa" placeholder="xxxx" required>
+                    </div>
+
+                    <div class="form-comprar__input">
+                        <label for="referencia">Referência (opicional)</label>
+                        <input type="text" name="referencia" id="referencia" placeholder="Bar do Zé">
+                    </div>
+                </div>
+
+                <div class="form-comprar__forma-pagamento">
+                    <button class="forma-pagamento__op forma-pagamento__op-ativo" cartao>Cartão</button>
+                    <button class="forma-pagamento__op" boleto>Boleto Bancario</button>
+
+                    <div class="clear"></div>
+                </div>
+
+                <div class="form-comprar__box form-comprar__cartao form-comprar__dados_pagamento form-comprar__dados_pagamento-ativo anima__fundo">
+                    <div class="form-comprar__input">
+                        <label for="nome.titular">Nome Títular do Cartão</label>
+                        <input type="text" name="nome.titular" id="nome.titular" placeholder="Rodrigo da Silva" required>
+                    </div>
+
+                    <div class="form-comprar__input">
+                        <label for="num.cartao">Número do Cartão</label>
+                        <input type="number" name="num.cartao" id="num.cartao" placeholder="xxx-xxx-xxx-xx" required>
+                    </div>
+
+                    <div class="form-comprar__input">
+                        <label for="cvv">CVV</label>
+                        <input type="number" name="cvv" id="cvv" placeholder="xxx" required>
+                    </div>
+
+                    <div class="form__input_box">
+                        <label for="Vencimento.cartao">Vencimento do Cartão</label>
+                        <input type="number" name="Vencimento.cartao" id="Vencimento.cartao" placeholder="MM/AA" required>
+                    </div>
+
+                    <div class="form-comprar__button">
+                        <button type="submit">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="form-comprar__box form-comprar__boleto form-comprar__dados_pagamento anima__fundo">
+                    <h1>Forma de Pagamento Por Boleto bancario</h1>
+
+                    <div class="form-comprar__button">
+                        <a href="../public/boleto/boleto-nada-falso.txt" download="boleto-nada-falso.txt">Gerar Boleto</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="login anima__fundo">
+        <form method="POST">
+            <label for="nome.user">Usuário: </label>
+            <input type="text" id="nome.user" name="nome.user">
+
+            <label for="senha.user">Senha: </label>
+            <input type="password" id="senha.user" name="senha.user">
+
+            <button class="login__btn">Entrar</button>
+        </form>
+
+        <div class="login__fechar">X</div>
+    </div>
+
+    <div class="overflow-login anima__fundo"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content_icons">
+                <a href="#"><img src="../public/img/youtube.svg" alt="YouTube" title="Visite o Nosso Canal"></a>
+                <a href="#"><img src="../public/img/facebook.svg" alt="FaceBook" title="Visite o Nosso FaceBook"></a>
+                <a href="#"><img src="../public/img/twitter.svg" alt="twitter" title="Visite o Nosso twitter"></a>
+                <a href="#"><img src="../public/img/github.svg" alt="GitHub" title="Visite o Nosso perfil no GitHub"></a>
+            </div> 
+
+            <div class="footer__content_direitos">
+                <p>©Direitos Reservados</p>
+            </div>
+        </div>
+    </footer>  
+
+    <script src="../public/js/main.js" type="module"></script>
+    <script src="../public/js/mainComprar.js" type="module"></script>
+</body>
+</html>

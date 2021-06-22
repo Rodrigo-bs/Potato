@@ -1,0 +1,139 @@
+.informacoes {
+    margin-top: 60px;
+}
+
+.informacoes > .container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.informacoes img {
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid var(--color-02--);
+    margin-right: 30px;
+}
+
+.informacoes .informacoes__descricao {
+    max-width: 600px;
+}
+
+.preparo h1,
+.informacoes .informacoes__descricao h1 {
+    font-size: 3.2rem;
+    color: var(--color-03--);
+}
+
+.preparo p,
+.informacoes .informacoes__descricao p {
+    font-size: 1.5rem;
+    color: var(--color-04--);
+    margin: 10px 0 5px 0;
+}
+
+/* Preparo */
+
+.preparo {
+    margin: 60px 0;
+}
+
+.preparo > .container {
+    display: flex;
+}
+
+.preparo .preparo__itens {
+    max-width: 400px;
+    margin-right: 50px;
+}
+
+.preparo h1 {
+    margin-bottom: 10px;
+}
+
+.preparo__itens li {
+    list-style: outside;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-left: 40px;
+    font-size: 1.8rem;
+}
+
+.preparo__modo {
+    max-width: 800px;
+}
+
+/* Receitas */
+
+.receitas__container {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.receitas__content {
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.receitas__passar {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.receitas__passar.esquerda {
+    left: 0;
+}
+
+.receitas__passar.direita {
+    right: 0px;
+}
+
+.receitas__content::-webkit-scrollbar{ 
+	display: none;
+    width: 0 !important;
+}
+
+.receitas__content_single {
+    width: 250px;
+    margin: 0 15px;
+    flex: 1 0 250px;
+}
+
+.content__single_img  {
+    width: 100%;
+    height: 200px;
+    background: url('../../img/receitas/filled-potato-785151_1920.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--color-01--);
+    display: block;
+}
+
+.content__single_titulo {
+    font-size: 1.4rem;
+    color: #252525;
+    font-weight: 500;
+    float: left;
+}
+
+.content__single_user {
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 50%;
+    float: right;
+}

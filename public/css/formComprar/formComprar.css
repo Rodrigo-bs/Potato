@@ -1,0 +1,120 @@
+.form-comprar {
+    margin: 60px 0;
+}
+
+.form-comprar > .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-comprar__box  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+.form-comprar__dados_pagamento {
+    display: none;
+}
+
+.form-comprar__dados_pagamento-ativo {
+    display: block;
+}
+
+.form-comprar__dados_pagamento-ativo h1 {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.form-comprar__input {
+    margin-bottom: 15px;
+}
+
+.form-comprar label {
+    font-size: 1.8rem;
+    font-family: 'Kiwi Maru';
+    margin-bottom: 10px; 
+    display: block;
+    color: var(--color-03--);
+}
+
+.form-comprar input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 8px;
+    display: block;
+    background: #F9F5F6;
+    border-radius: 5px;
+    border: 1px solid var(--color-01--);
+    outline: none;
+    color: #181818;
+    transition: .1s ease-in;
+}
+
+.cep-error {  
+    border: 1px solid #E54 !important;
+}
+
+.form-comprar__button button,
+.form-comprar__button a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: var(--color-04--);
+    padding: 10px 15px;
+    background: var(--color-02--);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: inset -3px -3px 0 var(--color-08--);
+    margin-top: 15px;
+}
+
+.form-comprar__forma-pagamento  {
+    margin: 40px 0 20px 0;
+}
+
+.forma-pagamento__op {
+    padding: 20px 80px 20px 50px;
+    font-size: 1.4rem;
+    font-family: 'Kiwi Maru';
+    color: var(--color-03--);
+    border: none;
+    background: var(--color-02--);
+    display: block;
+    position: relative;
+    transition: .1s ease-in;
+    cursor: pointer;
+    float: left;
+}
+
+.forma-pagamento__op {
+    border-radius: 5px 0 0 5px;
+}
+
+.forma-pagamento__op + .forma-pagamento__op {
+    border-radius: 0 5px 5px 0;
+}
+
+.forma-pagamento__op::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.forma-pagamento__op-ativo {
+    background: var(--color-01--);
+}
+
+.forma-pagamento__op.forma-pagamento__op-ativo::before {
+    background: var(--color-01--);
+}

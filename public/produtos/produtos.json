@@ -1,0 +1,134 @@
+[
+    {
+        "nome": "Batata-inglesa",
+        "valor": 45.00,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-1.jpg"
+    },
+    {
+        "nome": "Batata Torta do sol",
+        "valor": 52.10,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-2.jpg"
+    },
+    {
+        "nome": "Batata Cavalo",
+        "valor": 37.10,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-3.png"
+    },
+    {
+        "nome": "Batata Real",
+        "valor": 195.60,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-4.png"
+    },
+    {
+        "nome": "Batata Doce de Goiaba",
+        "valor": 2.00,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-5.png"
+    },
+    {
+        "nome": "Batata Pão de mel",
+        "valor": 14.80,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-4.png"
+    },
+    {
+        "nome": "Batata Sangue Bom",
+        "valor": 35.20,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-3.png"
+    },
+    {
+        "nome": "Batata-inglesa",
+        "valor": 45.00,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-1.jpg"
+    },
+    {
+        "nome": "Batata Torta do sol",
+        "valor": 52.10,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-2.jpg"
+    },
+    {
+        "nome": "Batata Cavalo",
+        "valor": 37.10,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-3.png"
+    },
+    {
+        "nome": "Batata Real",
+        "valor": 195.60,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-4.png"
+    },
+    {
+        "nome": "Batata Doce de Goiaba",
+        "valor": 2.00,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-5.png"
+    },
+    {
+        "nome": "Batata Pão de mel",
+        "valor": 14.80,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-4.png"
+    },
+    {
+        "nome": "Batata Sangue Bom",
+        "valor": 35.20,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-3.png"
+    },
+    {
+        "nome": "Batata-inglesa",
+        "valor": 45.00,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-1.jpg"
+    },
+    {
+        "nome": "Batata Torta do sol",
+        "valor": 52.10,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-2.jpg"
+    },
+    {
+        "nome": "Batata Cavalo",
+        "valor": 37.10,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-3.png"
+    },
+    {
+        "nome": "Batata Real",
+        "valor": 195.60,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-4.png"
+    },
+    {
+        "nome": "Batata Doce de Goiaba",
+        "valor": 2.00,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-5.png"
+    },
+    {
+        "nome": "Batata Pão de mel",
+        "valor": 14.80,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-4.png"
+    },
+    {
+        "nome": "Batata Sangue Bom",
+        "valor": 35.20,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-3.png"
+    },
+    {
+        "nome": "Batata Sangue Bom",
+        "valor": 35.20,
+        "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus amet quia consectetur quasi sit iste ducimus temporibus est. Accusamus reprehenderit ipsam omnis beatae id corporis ab vero cupiditate dolorum?",
+        "img": "../public/img/loja/img-3.png"
+    }
+]

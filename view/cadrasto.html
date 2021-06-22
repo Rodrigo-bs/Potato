@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="As melhores batatas do mundo">
+    <meta name="keywords" content="Potatos, batatas, as melhores batatas do mundo">
+    <meta name="author" content="Rodrigo da Silva Brito">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500;600&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/import-cadrasto.css">
+    <title>Cadrasta-se</title>
+</head>
+<body>
+    <header> 
+        <div class="logo">
+            <a href="../index.html">  
+                <img src="../public/img/logo.svg" alt="Potato - logo" title="Potato">
+            </a>
+        </div>
+
+        <div class="menu">
+            <nav class="container menu__desk">
+                <ul id="menu__nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav> 
+
+            <nav class="container menu__mobile">
+                <div class="menu__icon_mobile" data-menu="menu__icon"></div>
+
+                <ul id="menu__nav_mobile" class="anima__cima" data-menu="menu__nav_mobile">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="form_cadrasto">
+        <div class="container">
+            <form method="POST">
+                <div class="form__box">
+                    <div class="form__input_box">
+                        <label for="nome">Nome Completo: </label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+    
+                    <div class="form__input_box">
+                        <label for="nome.user">Nome de usuário: </label>
+                        <input type="text" name="nome.user" id="nome.user" required>
+                    </div>
+    
+                    <div class="form__input_box">
+                        <label for="email">Email: </label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+    
+                    <div class="form__input_box">
+                        <label for="senha">Senha: </label>
+                        <input type="password" name="senha" id="senha" required>
+                    </div>
+    
+                    <div class="form__input_box">
+                        <label for="cpf">CPF: </label>
+                        <input type="number" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" required>
+                    </div>
+    
+                    <div class="form__input_box">
+                        <label for="data">Data de Nascimento: </label>
+                        <input type="date" name="data" id="data" required>
+                    </div>
+                </div>
+
+                <div class="form__input_box-button">
+                    <button>Cadrastar</button>
+                </div>
+
+                <a href="#">Ja tem uma conta?</a>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content_icons">
+                <a href="#"><img src="../public/img/youtube.svg" alt="YouTube" title="Visite o Nosso Canal"></a>
+                <a href="#"><img src="../public/img/facebook.svg" alt="FaceBook" title="Visite o Nosso FaceBook"></a>
+                <a href="#"><img src="../public/img/twitter.svg" alt="twitter" title="Visite o Nosso twitter"></a>
+                <a href="#"><img src="../public/img/github.svg" alt="GitHub" title="Visite o Nosso perfil no GitHub"></a>
+            </div>
+
+            <div class="footer__content_direitos">
+                <p>©Direitos Reservados</p>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="../public/js/mainCadrasto.js" type="module"></script>
+</body>
+</html>

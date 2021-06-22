@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .form__box {
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+}

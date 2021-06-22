@@ -1,0 +1,78 @@
+.carrinho__content {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.carrinho__titulo {
+    border-bottom: 60px solid var(--color-01--);
+}
+
+.carrinho__titulo a {
+    font-size: 3.2rem;
+    text-align: center;
+    color: var(--color-03--);
+    padding: 20px;
+    display: block;
+    font-family: 'Kiwi Maru';
+}
+
+.carrinho__content {
+    padding: 0 30px;
+}
+
+.carrinho__item {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid var(--color-01--);
+    position: relative;
+}
+
+.carrinho__item img {
+    height: 200px;
+    margin: 0 auto;
+}
+
+.carrinho__item_content h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.carrinho__item_content p {
+    margin-top: 2px;
+    font-size: 1.2rem;
+    font-family: 'Kiwi Maru';
+    font-weight: 500;
+}
+
+.carrinho__item_content button {
+    margin-top: 30px;
+    font-family: 'Kiwi Maru';
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    background: var(--color-02--); 
+    box-shadow: inset -3px -3px 0 var(--color-08--);
+    border: none;
+    border-radius: 5px;
+}
+
+.carrinho__apagar {
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
+    font-family: 'Kiwi Maru';
+    color: #fff;
+    border: 1px solid var(--color-01--);
+    background: #E54;
+    display: block;
+    position: absolute; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}

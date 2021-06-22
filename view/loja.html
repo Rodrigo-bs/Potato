@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="As melhores batatas do mundo">
+    <meta name="keywords" content="Potatos, batatas, as melhores batatas do mundo">
+    <meta name="author" content="Rodrigo da Silva Brito">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/import-loja.css">
+    <title>Loja</title>
+</head>
+<body> 
+    <header> 
+        <div class="logo">
+            <a href="../index.html"> 
+                <img src="../public/img/logo.svg" alt="Potato - logo" title="Potato">
+            </a>
+        </div>
+
+        <div class="menu">
+            <nav class="container menu__desk">
+                <ul id="menu__nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                </ul>
+
+                <ul id="menu__login">
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+
+            <nav class="container menu__mobile">
+                <div class="menu__icon_mobile" data-menu="menu__icon"></div>
+
+                <ul id="menu__nav_mobile" class="anima__cima" data-menu="menu__nav_mobile">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="filtro">
+        <div class="container">
+            <nav class="filtro__menu_nav">
+                <ul>
+                    <li><a href="#">Batata Monalisa</a></li>
+                    <li><a href="#">Batata-inglesa</a></li>
+                    <li><a href="#">Batata Asterix</a></li>
+                    <li><a href="#">Batata Kennebec</a></li>
+                    <li><a href="#">Batata Condor</a></li>
+                    <li><a href="#">Batata Hermes</a></li>
+                    <li><a href="#">Batata-doce</a></li>
+                    <li><a href="#">Batata-baroa</a></li>
+                    <li><a href="#">Batata Pré-frita</a></li>
+                </ul>
+            </nav>
+
+            <form method="GET" class="filtro__pesquisar">
+                <select name="filtro__pesquisar_estado" id="estado-batata">
+                        <option value="Batata-Assada">Batata Batata Crua</option>
+                        <option value="Batata-Assada">Batata Assada</option>
+                        <option value="Batata-Assada">Batata Recheada</option>
+                        <option value="Batata-Assada">Batata Doce</option>
+                </select>
+
+                <div class="filtro__pesquisar_box">
+                    <input type="text" name="pes" id="pes-input" placeholder="Pesquisar">
+                    <button>Pesquisar</button>
+                </div>
+
+                <select name="filtro__pesquisar_preco" id="preco-batata">
+                    <option value="0-15">R$ 0,00 - R$ 15,00</option>
+                    <option value="15-35">R$ 15,00 - R$ 35,00</option>
+                    <option value="35-75">R$ 35,00 - R$ 75,00</option>
+                    <option value="75-XX">R$ 75,00 - R$ XXXX</option>
+                </select>
+
+                <select name="filtro__pesquisar_peso" id="quantidade-batata">
+                    <option value="">1kg</option>
+                    <option value="">3kg</option>
+                    <option value="">6kg</option>
+                    <option value="">10kg+</option>
+                </select>
+            </form>
+        </div>
+    </section>
+
+    <section class="venda">
+        <div class="container">
+            <h1>Compre Conosco!!</h1>
+
+            <ul class="venda__itens">
+            </ul>  
+        </div>
+    </section>
+
+    <nav class="carrinho anima__direita" data-sacola="carrinho">
+        <h1 class="carrinho__titulo">Carrinho</h1>
+
+        <div class="carrinho__content">
+        </div>
+
+        <div class="carrinho__info_compras">
+            <p class="info_compras__total">Total: R$ 0</p>
+            <a class="info_compras__btn" href="./formComprar.html">Finalizar Compra</a>
+        </div>
+
+        <div class="carrinho__sair" data-sacola="fechar"></div> 
+    </nav>
+
+    <a href="./carrinho.html" class="sacola" data-sacola="sacola">0</a>   
+
+    <div class="informacoes aparecer__cima" data-info="container">
+        <div class="informacoes__container">
+            <div class="informacoes__fechar" data-info="sair">X</div>
+            <img class="informacoes__img" alt="img-produto" title="Batatas">
+ 
+            <div class="informacoes__content_info">
+                <h1 class="informacoes__content_titulo">Batata-inglesa</h1>
+                <p class="informacoes__content_infos">R$ 49,00 - 3kg</p>
+
+                <p class="informacoes__content_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum iure asperiores accusamus nihil velit itaque saepe sapiente? Dolorum dolores autem veritatis, illum id excepturi neque nostrum, reprehenderit suscipit labore asperiores.</p>
+
+                <form class="informacoes__form">
+                    <div class="informacoes__form_numero">
+                        <span data-num="somar">+</span>
+                        <input type="number" name="numero-batata" id="numero-batata" value="1" data-num-info="numero">
+                        <span data-num="sub">-</span>
+                    </div>
+        
+                    <div class="informacoes__form_btn">
+                        <button>add ao Carrinho</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="overflow anima__fundo" data-info="overflow"></div>
+
+    <div class="login anima__fundo">
+        <form method="POST">
+            <label for="nome.user">Usuário: </label>
+            <input type="text" id="nome.user" name="nome.user">
+
+            <label for="senha.user">Senha: </label>
+            <input type="password" id="senha.user" name="senha.user">
+
+            <button class="login__btn">Entrar</button>
+        </form>
+
+        <div class="login__fechar">X</div>
+    </div>
+
+    <div class="overflow-login anima__fundo"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content_icons">
+                <a href="#"><img src="../public/img/youtube.svg" alt="YouTube" title="Visite o Nosso Canal"></a>
+                <a href="#"><img src="../public/img/facebook.svg" alt="FaceBook" title="Visite o Nosso FaceBook"></a>
+                <a href="#"><img src="../public/img/twitter.svg" alt="twitter" title="Visite o Nosso twitter"></a>
+                <a href="#"><img src="../public/img/github.svg" alt="GitHub" title="Visite o Nosso perfil no GitHub"></a>
+            </div> 
+
+            <div class="footer__content_direitos">
+                <p>©Direitos Reservados</p>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="../public/js/main.js" type="module"></script>
+    <script src="../public/js/initAddPotatos.js" type="module"></script>
+    <script src="../public/js/mainLoja.js" type="module"></script>
+</body>
+</html>

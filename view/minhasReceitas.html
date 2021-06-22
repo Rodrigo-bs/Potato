@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="As melhores batatas do mundo">
+    <meta name="keywords" content="Potatos, batatas, as melhores batatas do mundo">
+    <meta name="author" content="Rodrigo da Silva Brito">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/import-minhas-receitas.css">
+    <title>Minhas Receitas</title>
+</head>
+<body>
+    <header> 
+        <div class="logo">
+            <a href="../index.html"> 
+                <img src="../public/img/logo.svg" alt="Potato - logo" title="Potato">
+            </a>
+        </div>
+
+        <div class="menu">
+            <nav class="container menu__desk">
+                <ul id="menu__nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                </ul>
+
+                <ul id="menu__login">
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+
+            <nav class="container menu__mobile">
+                <div class="menu__icon_mobile" data-menu="menu__icon"></div>
+
+                <ul id="menu__nav_mobile" class="anima__cima" data-menu="menu__nav_mobile">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="minhas_receitas">
+        <div class="container">
+            <h1>Receitas Ativas</h1>
+
+            <div class="minhas_receitas__content">
+                <div class="receita_ativa">
+                    <a href="./receitasItem.html" class="receita_ativa__infos">
+                        <p>Usuário</p>
+                        <span>1 Visitas</span>
+                    </a>
+
+                    <div class="receita_ativa__administracao">
+                        <div class="administracao__editar">
+                            <img src="../public/img/lapis.svg" alt="editar-img" title="Editar">
+                        </div>
+                        <div class="administracao__apagar">
+                            <img src="../public/img/lixo.svg" alt="deletar-img" title="Deletar">
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="receita_ativa">
+                    <a href="receitasItem.html" class="receita_ativa__infos">
+                        <p>Usuário</p>
+                        <span>6 Visitas</span>
+                    </a>
+
+                    <div class="receita_ativa__administracao">
+                        <div class="administracao__editar">
+                            <img src="../public/img/lapis.svg" alt="editar-img" title="Editar">
+                        </div>
+                        <div class="administracao__apagar">
+                            <img src="../public/img/lixo.svg" alt="deletar-img" title="Deletar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="receita_ativa">
+                    <a href="receitasItem.html" class="receita_ativa__infos">
+                        <p>Usuário</p>
+                        <span>10 Visitas</span>
+                    </a>
+
+                    <div class="receita_ativa__administracao">
+                        <div class="administracao__editar">
+                            <img src="../public/img/lapis.svg" alt="editar-img" title="Editar">
+                        </div>
+                        <div class="administracao__apagar">
+                            <img src="../public/img/lixo.svg" alt="deletar-img" title="Deletar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="login anima__fundo">
+        <form method="POST">
+            <label for="nome.user">Usuário: </label>
+            <input type="text" id="nome.user" name="nome.user">
+
+            <label for="senha.user">Senha: </label>
+            <input type="password" id="senha.user" name="senha.user">
+
+            <button class="login__btn">Entrar</button>
+        </form>
+
+        <div class="login__fechar">X</div>
+    </div>
+
+    <div class="overflow-login anima__fundo"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content_icons">
+                <a href="#"><img src="../public/img/youtube.svg" alt="YouTube" title="Visite o Nosso Canal"></a>
+                <a href="#"><img src="../public/img/facebook.svg" alt="FaceBook" title="Visite o Nosso FaceBook"></a>
+                <a href="#"><img src="../public/img/twitter.svg" alt="twitter" title="Visite o Nosso twitter"></a>
+                <a href="#"><img src="../public/img/github.svg" alt="GitHub" title="Visite o Nosso perfil no GitHub"></a>
+            </div> 
+
+            <div class="footer__content_direitos">
+                <p>©Direitos Reservados</p>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="../public/js/main.js" type="module"></script>
+    <script src="../public/js/mainMinhasReceitas.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+    .form-comprar__box {
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .forma-pagamento__op {
+        width: 50%;
+        font-size: 1.2rem;
+    }
+}

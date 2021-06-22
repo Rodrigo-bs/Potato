@@ -1,0 +1,67 @@
+@media (max-width: 1200px) {
+    .filtro select {
+        display: none;
+    }
+
+    .filtro nav {
+        display: none;
+    }
+
+    .venda ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 860px) {
+    .informacoes {
+        max-width: 500px;
+    }
+
+    .informacoes__container img {
+        margin: 0 auto;
+    }
+ 
+    .informacoes__form {
+        margin-top: 20px;
+    }
+
+    .informacoes__container {
+        display: block;
+    }
+
+    .venda ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 720px) {
+    .filtro .filtro__pesquisar_box {
+        width: 100%;
+    }
+
+    .venda ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .informacoes {
+        max-width: 300px;
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .informacoes {
+        max-width: 300px;
+        padding: 10px 5px;
+    }
+
+    .informacoes__content h1 {
+        font-size: 1.5rem;
+    }
+
+    .informacoes__content p {
+        font-size: 1.2rem;
+    }
+}

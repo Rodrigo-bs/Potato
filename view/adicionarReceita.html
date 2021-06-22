@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="As melhores batatas do mundo">
+    <meta name="keywords" content="Potatos, batatas, as melhores batatas do mundo">
+    <meta name="author" content="Rodrigo da Silva Brito">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/import-adicionar-receitas.css">
+    <title>Adicionar Receita</title>
+</head>
+<body>
+    <header> 
+        <div class="logo">
+            <a href="../index.html"> 
+                <img src="../public/img/logo.svg" alt="Potato - logo" title="Potato">
+            </a>
+        </div>
+
+        <div class="menu">
+            <nav class="container menu__desk">
+                <ul id="menu__nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                </ul>
+
+                <ul id="menu__login">
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+
+            <nav class="container menu__mobile">
+                <div class="menu__icon_mobile" data-menu="menu__icon"></div>
+
+                <ul id="menu__nav_mobile" class="anima__cima" data-menu="menu__nav_mobile">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./loja.html">Comprar</a></li>
+                    <li><a href="../index.html#sobre">Sobre</a></li>
+                    <li><a href="./cadrasto.html">cadrasta-se</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <p class="aviso">Clique na Área que Você deseja Editar.</p>
+
+    <seciton class="receita_editar">
+        <div class="container">
+            <form>
+                <div class="receita_editar__header">
+                    <div class="receita_editar__img">
+                        <label for="img" title="Adicionar Imagem"></label>
+                        <input type="file" name="receita.img" aria-hidden="true" id="img" required>
+                    </div>
+                    
+                    <div class="receita_editar__infos">
+                        <input type="text" name="receita.titulo" value="Editar Titulo" required>
+                        <textarea name="receita.descricao" required>Editar Descrição</textarea>
+                    </div>
+                </div>
+
+                <div class="receita_editar__preparo">
+                    <div class="lista_preparo">
+                        <h1>Itens: </h1>
+                        <ul></ul>
+    
+                        <input type="text" name="list">
+                        <button>Adicionar Item</button>
+                    </div>
+    
+                    <div class="modo_preparo">
+                        <label for="preparo">Método de Preparo:</label>
+                        <textarea name="receita.preparo" id="preparo" required>Editar Como Preparar</textarea>
+                    </div>
+                </div>
+
+                <hr>
+                <button class="enviar">Adicionar Receita</button>
+            </form>
+        </div>
+    </seciton>
+
+    <div class="login anima__fundo">
+        <form method="POST">
+            <label for="nome.user">Usuário: </label>
+            <input type="text" id="nome.user" name="nome.user">
+
+            <label for="senha.user">Senha: </label>
+            <input type="password" id="senha.user" name="senha.user">
+
+            <button class="login__btn">Entrar</button>
+        </form>
+
+        <div class="login__fechar">X</div>
+    </div>
+
+    <div class="overflow-login anima__fundo"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content_icons">
+                <a href="#"><img src="../public/img/youtube.svg" alt="YouTube" title="Visite o Nosso Canal"></a>
+                <a href="#"><img src="../public/img/facebook.svg" alt="FaceBook" title="Visite o Nosso FaceBook"></a>
+                <a href="#"><img src="../public/img/twitter.svg" alt="twitter" title="Visite o Nosso twitter"></a>
+                <a href="#"><img src="../public/img/github.svg" alt="GitHub" title="Visite o Nosso perfil no GitHub"></a>
+            </div> 
+
+            <div class="footer__content_direitos">
+                <p>©Direitos Reservados</p>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="../public/js/main.js" type="module"></script>
+    <script src="../public/js/mainAdicionarReceita.js" type="module"></script>
+</body>
+</html> 

@@ -1,0 +1,326 @@
+:root {
+    --background-slider--: url('../../img/receitas/banner-slide.png');
+}
+
+body {
+    background: #f1f2f6;
+}
+
+.slider {
+    position: relative;
+    max-width: 1000px;
+    height: 300px;
+    margin: 60px auto;
+    border-radius: 10px;
+    border: 1px solid var(--color-01--);
+    overflow: hidden;
+}
+
+.slider__content {
+    width: 100%;
+    height: 100%;
+    background: #ccc no-repeat center center;
+    background-image: var(--background-slider--);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.slider__content-ativo {
+    display: block;
+}
+
+.slider__content_titulo {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: var(--color-03--);
+    padding: 10px 95px 10px 20px;
+    background: var(--color-10--);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.slider__content_nota {
+    font-size: 1.4rem;
+    color: var(--color-03--);
+    padding: 5px 50px 5px 20px;
+    font-weight: 500;
+    font-family: 'Kiwi Maru';
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: var(--color-10--);
+    border-radius: 20px 0 0 20px;
+}
+
+.slider_controle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider_controle span {
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider_controle span.slider__controle-ativo {
+    background: #fff;
+    cursor: auto;
+}
+
+/* Receitas */
+
+.receitas h1, 
+.receitas h1 span{
+    font-family: 'Kiwi Maru';
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--color-03--);
+    text-align: center;
+}
+
+.receitas h1 span {
+    display: block;
+}
+
+.receitas h1::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 2px;
+    background: var(--color-11--);
+}
+
+.receitas__topicos {
+    margin-bottom: 60px;
+}
+
+.receitas__container {
+    position: relative
+}
+
+.receitas__content {
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.receitas__passar {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.receitas__passar.esquerda {
+    left: 0;
+}
+
+.receitas__passar.direita {
+    right: 0px;
+}
+
+.receitas__content::-webkit-scrollbar{ 
+	display: none;
+    width: 0 !important;
+}
+
+.receitas__content_single {
+    width: 250px;
+    margin: 0 15px;
+    flex: 1 0 250px;
+}
+
+.content__single_img  {
+    width: 100%;
+    height: 200px;
+    background: url('../../img/receitas/filled-potato-785151_1920.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--color-01--);
+    display: block;
+}
+
+.content__single_titulo {
+    font-size: 1.4rem;
+    color: #252525;
+    font-weight: 500;
+    float: left;
+}
+
+.content__single_user {
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 50%;
+    float: right;
+}
+
+.receitas__content_mais {
+    font-size: 1.5rem;
+    color: var(--color-13--);
+    text-decoration: underline;
+    font-family: 'Kiwi Maru';
+    letter-spacing: 2px;
+    text-align: right;
+    display: block;
+    margin: 30px 10px 0 0;
+}
+
+.receitas__content_mais::after {
+    content: '>';
+    margin-left: 5px;
+}
+
+/* junte-se */
+
+.junte-se h1,
+.noticias .container > h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    color: var(--color-03--);
+}
+
+.junte-se__op {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.junte-se__op a {
+    max-width: 100%;
+    background: var(--color-05--);
+    padding: 40px 20px;
+    border-left: 2px solid var(--color-01--);
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Kiwi Maru'; 
+    color: #181818;
+    margin-top: 30px;
+    position: relative;
+    transition: .3s ease-in-out;
+    opacity: 1;
+}
+
+.junte-se__op a:hover {
+    background: var(--color-07--);
+}
+
+.junte-se__op a::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../../img/receitas/mais-icon.svg') no-repeat center center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.junte-se__op a + a::after  {
+    background-image: url('../../img/receitas/cartao-icon.svg');
+}
+
+/* noticias single */
+
+.noticias {
+    margin-bottom: 60px;
+}
+
+.noticias .container > h1 {
+    margin-bottom: 30px;
+}
+
+.noticias__content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'item-1 item-1 item-2 item-3'
+    'item-4 item-5 item-5 item-5';
+}
+
+.noticia__single {
+    padding: 10px;
+    height: 200px;
+    position: relative;
+    color: #181818;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #fff  url('../../img/receitas/batata-banner.png') no-repeat right bottom;
+    background-size: 210px;
+    transition: .3s ease;
+}
+
+.noticia__single:hover {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.30);
+}
+
+.noticia__single h1 {
+    font-size: 1rem;
+}
+
+.noticia__single h1 span {
+    font-size: 1.8rem;
+    display: block;
+}
+
+.noticia__single-1 {
+    grid-area: item-1;
+}
+
+.noticia__single-2 {
+    grid-area: item-2;
+}
+
+.noticia__single-3 {
+    grid-area: item-3;
+}
+
+.noticia__single-4 {
+    grid-area: item-4;
+}
+
+.noticia__single-5 {
+    grid-area: item-5;
+}
+
+.noticia__single-2, .noticia__single-3, .noticia__single-4 {
+    background-size: 150px;
+}
+
+:is(.noticia__single-1, .noticia__single-5) h1 {
+    max-width: 320px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+:is(.noticia__single-2, .noticia__single-3, .noticia__single-4) h1 {
+    font-size: 1.8rem;
+}

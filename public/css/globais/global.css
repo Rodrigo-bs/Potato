@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --color-01--: #FFDD66;
+    --color-02--: #FFE899;
+    --color-03--: #4D4117;
+
+    --color-04--: #181818;
+    --color-05--: #E5E1CF;
+    --color-06--: #F9F5F6;
+    --color-07--: #D0C9AE;
+    --color-08--: #BFAE73;
+    --color-09--: #BFB799;
+    --color-10--: #F2CA3D;
+    --color-11--: #F9F5F6;
+    --color-12--: #252525;
+    --color-13--: #8C7B38;
+
+    font-size: 62.5%;
+}
+
+/* body {
+    background: #F9F5F6;
+} */
+
+body,
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.clear {clear: both;}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

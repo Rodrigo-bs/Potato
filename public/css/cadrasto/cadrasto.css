@@ -1,0 +1,66 @@
+.form_cadrasto {
+    margin: 60px 0;
+}
+
+.form_cadrasto > .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form__box  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+.form__input_box {
+    margin-bottom: 15px;
+}
+
+.form__box label {
+    font-size: 1.8rem;
+    font-family: 'Kiwi Maru';
+    margin-bottom: 10px; 
+    display: block;
+    color: var(--color-03--);
+}
+
+.form__box input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 8px;
+    display: block;
+    background: #F9F5F6;
+    border-radius: 5px;
+    border: 1px solid var(--color-01--);
+    outline: none;
+    color: #181818;
+}
+
+.form__input_box-button  {
+    margin: 15px 0;
+}
+
+.form__input_box-button button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: var(--color-04--);
+    padding: 10px 15px;
+    background: var(--color-02--);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: inset -3px -3px 0 var(--color-08--);
+}
+
+.form_cadrasto a {
+    font-size: 1.2rem;
+    font-family: 'Kiwi Maru';
+    color: var(--color-03--);
+    text-decoration: underline;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
